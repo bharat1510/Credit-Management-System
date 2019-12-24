@@ -1,0 +1,107 @@
+<html>
+<head><title>Credit Management</title>
+
+	<link rel="icon" 
+      type="image/png" 
+      href="favicon-16x16.png">
+
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	
+	<link rel="stylesheet" href="index.css" type="text/css">
+		
+	<!-- Special Font & Symbol -->	
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+        <header><br>
+            <nav>
+                <div class="menu-icon">
+                    <i class="fa fa-bars fa-2x"></i>
+                </div>
+
+                <div class="logo">
+                     Credit Management
+                </div>
+
+                <div class="menu">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+                </div>
+            </nav>
+			
+			<div class="container">
+				<div class="no-results">
+					<div class="vertical-align">
+						<p>Transfer your credit here,</p>
+						<p>Select user from the list to transfer credit.</p>
+						<a href="table.php"><button class="btn btn-primary">View All User</button></a>
+					</div>
+				</div>
+			</div>
+			
+        </header>
+		<!-- Text Content -->
+        <div class="content">
+                  <p>
+                        Credit management is the process of granting credit, setting the terms it's granted on, recovering this credit when it's due, and ensuring compliance with company credit policy, among other credit related functions.
+				  </p>
+                  <p>
+                        A credit manager is a person employed by an organization to manage the credit department and make decisions concerning credit limits, acceptable levels of risk, terms of payment and enforcement actions with their customers.
+				  </p>
+				  
+				  
+				  <h2 style="color: red;">#. You can use the website by following:</h2>
+
+					<ol>
+					  <li>Click the button "View All user"</li>
+					  <li>Select send from which you want to send credit</li>
+					  <ul><li>You can also see your personal information</li></ul>
+					  <li>Type the receiver ID and amount</li>
+					  <li>Click "Submit"</li>
+					</ol>
+        </div>
+    </div>
+	<script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+    </script>
+	<script src="js/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

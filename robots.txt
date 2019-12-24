@@ -1,0 +1,7 @@
+User-agent: Bharat Vora
+Disallow: 
+
+User-agent: *
+Disallow: /temp/
+Disallow: /junk/
+
