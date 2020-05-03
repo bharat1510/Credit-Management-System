@@ -1,4 +1,4 @@
-# bharat1510.github.io
+# Credit-Management-System
 
 By this website, you can transfer the credit among all the users.
 There are number of users who have initial credit in their account.
